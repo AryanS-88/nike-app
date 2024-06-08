@@ -16,11 +16,21 @@ const App = () => {
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero />
       </section>
-      <PopularProduct />
-      <SuperiorQuality />
-      <Services />
-      <Specialoffer />
-      <CutomerReview />
+      <section className="padding">
+        <PopularProduct />
+      </section>
+      <section className="padding">
+        <SuperiorQuality />
+      </section>
+      <section className="padding-x py-10">
+        <Services />
+      </section>
+      <section>
+        <Specialoffer />
+      </section>
+      <section className="bg-pale-blue padding">
+        <CutomerReview />
+      </section>
       <Subscribe />
       <Footer />
     </main>
